@@ -1,0 +1,221 @@
+body {
+    background-color: #E0D8B0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    color: #DEA057;
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+h2 {
+    color: #361500;
+    font-family: "Meow Script", cursive;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 90px;
+}
+
+.title {
+    text-align: center;
+    line-height: 30px;
+}
+
+.all:hover {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.3), 0 8px 16px 0 rgb(0, 0, 0, 0.30);
+}
+
+#obs {
+    background-color: #FCFFE7;
+    width: 400px;
+    height: 780px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    float: left;
+    margin-right: 10px;
+}
+
+#obs img {
+    width: 400px;
+}
+
+#abp {
+    background-color: #FCFFE7;
+    width: 400px;
+    height: 780px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    float: left;
+    margin: 0 10px;
+}
+
+#abp img {
+    width: 400px;
+}
+
+#tfto {
+    background-color: #FCFFE7;
+    width: 400px;
+    height: 780px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    float: left;
+    margin: 0 10px;
+}
+
+#tfto img {
+    width: 400px;
+}
+
+#tb {
+    background-color: #FCFFE7;
+    width: 400px;
+    height: 780px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+}
+
+#tb img {
+    width: 400px;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    .title {
+        text-align: center;
+        line-height: 15px;
+    }
+
+    #obs {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+    }
+    
+    #obs img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    #abp {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+    }
+    
+    #abp img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    #tfto {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+        margin: 20px 0px;
+    }
+    
+    #tfto img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    #tb {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+        margin: 20px 20px;
+    }
+    
+    #tb img {
+        width: 200px;
+        object-fit: contain;
+    }
+}
+
+
+@media (min-width: 699px) and (max-width: 1600px) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 60px;
+    }
+    
+    .title {
+        text-align: center;
+        line-height: 15px;
+    }
+
+    #obs {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+    }
+    
+    #obs img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    #abp {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+    }
+    
+    #abp img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    #tfto {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+        margin: 20px 0px;
+    }
+    
+    #tfto img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    #tb {
+        width: 200px;
+        height: 560px;
+        text-align: justify;
+        display: block;
+        margin: 20px 20px;
+    }
+    
+    #tb img {
+        width: 200px;
+        object-fit: contain;
+    }
+}
